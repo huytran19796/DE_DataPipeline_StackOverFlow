@@ -1,8 +1,11 @@
 # Analyze User on Stack OverFlow
 
 ## Description
-- Create a data pipline: 
-- The dataset consists of two files: Questions and Answers.
+- Create a data pipeline:
+  
+  <img src="DataPipeline.JPG" alt="Alt text" title="Optional title">
+
+- The dataset consists of two files: Questions and Answers. Download from google drive 
   <p>+ Questions contains all the questions on Stack Overflow in a certain time period, including: ID, Title, BodyQuestion, OwnerUserId, CreationDate, ClosedDate, Score</p>
   <p>+ Answers contains all the answers to each question in Questions, and has the following fields: ID, BodyAnswer, QuestionID, OwnerUserId, CreationTime, Score</p>
 - Config Hadoop, Spark, Connect pySpark to MongoDB. Read, write data with MongoDB in Spark
@@ -13,8 +16,6 @@
     <p>+ Calculate the total number of points that User has achieved in a period of </p>
     <p>+ Find questions with many answers.</p>
     <p>+ Find active users.</p>
-- Data about over 3GB. Please download from note.txt in folder input
-- In Labs Practice folder, some small lab demo about Apache Spark, Apache Kafka, Apache Airflow.  
 - To practice and learn about some tool to handle big data
 
 ## Technology and skill
